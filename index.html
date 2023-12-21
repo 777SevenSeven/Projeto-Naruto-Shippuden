@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Naruto</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&family=Oxanium:wght@300;400;700&family=Righteous&family=Sarala&display=swap" rel="stylesheet">
+        <link rel="icon" href="imagens/Konoha-symbol.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="cabecalho">
+        <img src="/imagens/naruto-logo.png" alt="logo do naruto">
+    </header>
+
+    <main class="selecao-de-personagens">
+        <section class="personagens">
+            <h1 class="titulo">Selecione um Ninja!</h1>
+            <!-------------------------------------------Sistema de Musica------------------------------->
+            <div class="tema">
+            <h3>Tema do Personagem:</h3>
+                <audio id="musica" controls>
+                <source src="/musicas/Naruto Main Theme.mp3" type="audio/mp3">
+                </audio>
+            </div>
+
+            <ul class="lista-de-personagens">
+                <li class="personagem selecionado" id="naruto" data-name="Naruto Uzumaki" data-description="Protagonista da série, Naruto é um ninja destemido que domina a arte do chakra. Ele é conhecido por desencadear o poderoso Rasengan para aniquilar seus oponentes. Sua habilidade única é invocar a força da raposa de nove caudas." 
+                data-audio="/musicas/Naruto Main Theme.mp3">
+                    <img src="/imagens/naruto-card.png" alt="personagem naruto">
+                </li>
+                <li class="personagem" id="kisame" data-name="Kisame Hoshigaki" data-description="Conhecido como O Monstro da Névoa, Kisame é um ninja da Aldeia da Névoa Oculta. Ele possui uma espada Samehada e é membro da organização criminosa Akatsuki." 
+                data-audio="/musicas/kisameTheme.mp3">
+                    <img src="/imagens/kisame-card.png" alt="personagem kisame">
+                </li>
+                <li class="personagem" id="itachi" data-name="Itachi Uchiha" data-description="Itachi é um poderoso ninja da Aldeia da Folha que, apesar de suas ações misteriosas, é um dos personagens mais complexos. Ele é irmão de Sasuke Uchiha e membro da Akatsuki."
+                data-audio="/musicas/itachiTheme.mp3">
+                    <img src="/imagens/itachi-card.png" alt="personagem itachi">
+                </li>
+                <li class="personagem" id="hidan" data-name="Hidan" data-description="Hidan é um membro da Akatsuki conhecido por seu culto religioso e habilidade única de imortalidade. Ele se especializa em rituais de sacrifício e é um adversário formidável."
+                data-audio="musicas/hidanTheme.mp3">
+                    <img src="/imagens/hidan-card.png" alt="personagem hidan">
+                </li>
+                <li class="personagem" id="obito" data-name="Obito Uchiha" data-description="Inicialmente conhecido como Tobi, Obito é revelado como uma peça-chave na trama. Ele foi parceiro de Kakashi Hatake e eventualmente se tornou um vilão com o nome de Obito Uchiha" 
+                data-audio="/musicas/obitoTheme.mp3">
+                    <img src="/imagens/obito-card.png" alt="personagem obito">
+                </li>
+                <li class="personagem" id="sasuke" data-name="Sasuke Uchiha" data-description="Sasuke é um dos últimos sobreviventes do clã Uchiha e busca vingança contra seu irmão, Itachi. Ele é um usuário habilidoso do Sharingan e busca poder para alcançar seus objetivos."
+                data-audio="/musicas/sasukeTheme.mp3">
+                    <img src="/imagens/sasuke-card.png" alt="personagem sasuke">
+                </li>
+                <li class="personagem" id="pain" data-name="Pain/Nagato" data-description="Pain é uma figura enigmática que lidera a Akatsuki. Ele é controlado por Nagato, que busca realizar sua visão de paz por meio de métodos controversos."
+                data-audio="/musicas/painTheme.mp3">
+                    <img src="/imagens/pain-card.png" alt="personagem pain">
+                </li>
+                <li class="personagem" id="zabuza"  data-name="Zabuza Momochi" data-description="Zabuza é um mercenário renegado conhecido como Demônio da Névoa. Ele é lembrado por sua habilidade com a espada e por ser um dos primeiros desafios significativos para Naruto e seus companheiros."
+                data-audio="/musicas/zabuzaTheme.mp3">
+                    <img src="/imagens/zabuza-card.png" alt="personagem zabuza">
+                </li>
+            </ul>
+        </section>
+
+        <section class="personagem-selecionado">
+            <img class="personagem-grande" src="/imagens/naruto.png" alt="personagem selecionado">
+            <div class="informacoes-personagem">
+                <h2 class="nome-personagem" id="nome-personagem">Naruto</h2>
+                <p class="descricao-personagem" id="descricao-personagem">Protagonista da série, Naruto é um ninja destemido que domina a arte do chakra. Ele é conhecido por desencadear o poderoso Rasengan para aniquilar seus oponentes. Sua habilidade única é invocar a força da raposa de nove caudas.</p>
+            </div>
+        </section>
+    </main>
+<script src="script.js"></script>
+</body>
+
+</html>
