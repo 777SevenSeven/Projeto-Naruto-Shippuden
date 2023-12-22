@@ -123,6 +123,20 @@ audio {
         max-width: 120px;
     }
 
+    body::before {
+    content: "";
+    background-image: url(imagens/background-naruto.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+    opacity: 0.2;
+    }
+
+    
     .selecao-de-personagens {
         flex-direction: column-reverse;
         max-width: 430px;
