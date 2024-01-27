@@ -1,5 +1,5 @@
 
-# Projeto Naruto
+# Tela com escolha de personagens dinâmico baseado no anime Naruto Shippuden
 
 ## Visão Geral
 Um website interativo onde os usuários podem selecionar seu personagem favorito de Naruto para obter mais informações sobre ele! O projeto permite aos usuários explorar detalhes sobre os personagens e sua história no anime Naruto.
